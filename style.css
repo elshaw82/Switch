@@ -31,7 +31,7 @@ body {
     background-image: linear-gradient( #333333 20%, #1d1a1a 30%, #333333 80%);
 }
 
-#switch {
+.switch {
     width: 100px;
     height:250px;
     border-bottom: solid black 1px;
@@ -40,7 +40,17 @@ body {
     box-shadow: -1px 0px 5px #464646, 3px 4px 6px black;
 }
 
-.reverse {
+
+.switch-on {
+    width: 100px;
+    height:250px;
+    border-bottom: solid black 1px;
+    background-image: linear-gradient( #464646 40%, #1d1a1a 60%);
+    border-radius: 10px;
+    box-shadow: -1px 0px 5px #464646, 3px 4px 6px black;
+}
+
+.switch-off {
     width: 100px;
     height:250px;
     border-top: solid black 1px;
